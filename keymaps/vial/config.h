@@ -1,0 +1,9 @@
+#define VIAL_KEYBOARD_UID {0x4A, 0x7D, 0x89, 0xD8, 0xDA, 0x6E, 0xB3, 0xE8}
+#define VIAL_UNLOCK_COMBO_ROWS { 0, 0 }
+#define VIAL_UNLOCK_COMBO_COLS { 0, 1 }
+
+#define I2C1_SCL_PIN GP3    
+#define I2C1_SDA_PIN GP2
+#define I2C_DRIVER I2CD1  
+
+#define SWITCH_MOUSE_FUNC  SAFE_RANGE 
